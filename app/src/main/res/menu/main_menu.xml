@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.andrisgauracs.loader3ds.MainActivity">
+        <item android:id="@+id/change_object"
+            android:title="@string/obj_title"
+            android:showAsAction="ifRoom"/>
+</menu>

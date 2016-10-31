@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.example.andrisgauracs.loader3ds.MyGLSurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/glView"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="bottom"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <android.support.v7.widget.AppCompatSeekBar
+            android:layout_width="match_parent"
+            android:id="@+id/seekbar1"
+            android:layout_gravity="bottom|center"
+            android:layout_height="40dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="top">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/TextColor"
+                android:layout_margin="5dp"
+                android:text="@string/scale" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>
